@@ -29,24 +29,24 @@ if(rls.keyInYN("Press Y/N to continue or exit: "))
 
  var questionnaire = [
    {
-     quest : "where mustafa lives? ",
-     answer : "indore"
+     quest : "where mustafa lives? [Option: Indore | Pune | Mumbai]",
+     answer : "Indore"
 
    },
 
    {
-     quest : "Profession? ",
+     quest : "Profession? [Option: Software developer | Business owner | Chartered Accountant]",
      answer : "software developer"
 
    },
    {
-     quest : "Where I work? ",
-     answer : "pune"
+     quest : "Where I work?  [Option: Indore | Pune | Mumbai]",
+     answer : "Pune"
 
    },
    {
-     quest : "Favorite food? ",
-     answer : "gulab jamun"
+     quest : "Favorite food? [Option: Chicken | Fish | Veggies] ",
+     answer : "Chicken"
 
    },
 
